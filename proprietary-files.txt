@@ -77,6 +77,9 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
+# IRQ balance
+vendor/bin/msm_irqbalance
+
 # NFC
 -app/NxpNfcNci/NxpNfcNci.apk|83b5d03159e1b3dfd1bce92f9bbcfede2e9f0a5d
 -app/NxpSecureElement/NxpSecureElement.apk

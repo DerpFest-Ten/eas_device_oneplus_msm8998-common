@@ -251,14 +251,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.product.hardware.sku=ese \
     persist.vendor.nfc.delayese=true
 
-# Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.fw.bg_apps_limit=60 \
-    ro.vendor.extension_library=libqti-perfd-client.so \
-    ro.am.reschedule_service=true \
-    sched.colocate.enable=1 \
-    sys.games.gt.prof=1
-
 # QSEE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.qsee=yes
